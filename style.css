@@ -6,7 +6,7 @@
 }
 
 body{
-    background: rgb(195, 194, 194)
+    background: rgb(236, 235, 235)
 }
 
 /* BANNER */
@@ -95,10 +95,10 @@ body{
     color: #aaa;
     border: 1px solid #3F4956;
     padding: 10px 50px;
-    transition: 0.5;
+    transition: 1s;
 }
 
-.button:hover{
+.button:hover {
     color:white;
     background: #aaa;
 }

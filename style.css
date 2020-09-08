@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: Arial;
 }
+
+body{
+    background: rgb(195, 194, 194)
+}
+
 /* BANNER */
 #banner{
     width: 100%;
@@ -19,10 +24,11 @@
 }
 
 #banner a{
+    font-family: Verdana;
     color : rgb(42, 82, 128);
     text-decoration: none;
     padding: 50px;
-    font-size: 30px;
+    font-size: 20px;
     transition: 0.3s;
 }
 
@@ -49,7 +55,37 @@
     opacity: 0.8;
 }
 
+#news > div {
+    background: #fff;
+    text-align: center;
+}
+
+#news h3, h1 {
+    text-align : center;
+    padding: 15px;
+}
+
+#news p{
+    line-height: 1.5;
+    padding: 15px;
+}
+
 #news{
-    height: 500px;
-    background-color: rgb(101, 214, 248);
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+    padding: 150px;
+}
+
+#news #news-left{
+    height: 350px;
+    background-image: url(./IMG/newsleftapple.jpg);
+}
+
+#news #news-right{
+    height: 350px;
+    background-image: url(./IMG/newsrightbanana.jpg);
 }

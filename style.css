@@ -62,11 +62,11 @@ body{
 
 #news h3, h1 {
     text-align : center;
-    padding: 15px;
+    padding: 10px;
 }
 
 #news p{
-    line-height: 1.5;
+    line-height: 3;
     padding: 15px;
 }
 
@@ -89,3 +89,19 @@ body{
     height: 350px;
     background-image: url(./IMG/newsrightbanana.jpg);
 }
+
+.button{
+    text-decoration:none ;
+    color: #aaa;
+    border: 1px solid #3F4956;
+    padding: 10px 50px;
+    transition: 0.5;
+}
+
+.button:hover{
+    color:white;
+    background: #aaa;
+}
+
+
+

@@ -283,21 +283,21 @@
 
                 #about-content #about-1 {
                     height: 350px;
-                    background-image: url(./img/about-1.jpg);
+                    background-image: url(./IMG/about-1.jpg);
                     background-size: cover;
                     background-position: center;
                 }
 
                 #about-content #about-2 {
                     height: 350px;
-                    background-image: url(./img/about-2.jpg);
+                    background-image: url(./IMG/about-2.jpg);
                     background-size: cover;
                     background-position: center;
                 }
 
                 #about-content #about-3 {
                     height: 350px;
-                    background-image: url(./img/about-3.jpg);
+                    background-image: url(./IMG/about-3.jpg);
                     background-size: cover;
                     background-position: center;
                 }

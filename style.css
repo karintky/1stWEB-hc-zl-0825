@@ -20,11 +20,11 @@
                     background-attachment: fixed;
                 }
                 
-                #banner nav {
+                #banner nav , #banner-about nav{
                     padding: 30px;
                 }
                 
-                #banner a {
+                #banner a, #banner-about a {
                     font-family: Verdana;
                     color: rgb(42, 82, 128);
                     text-decoration: none;
@@ -33,7 +33,7 @@
                     transition: 0.3s;
                 }
                 
-                #banner a:hover {
+                #banner a:hover, #banner-about a:hover  {
                     color: rgb(238, 137, 78);
                     text-decoration-line: underline;
                 }
@@ -232,3 +232,18 @@
                     color: #3F4956;
                     background-attachment: fixed;
                 }
+
+                #banner-about h2 {
+                    text-align: center;
+                    font-size: 40px;
+                    letter-spacing: 30px;
+                    padding-left: 30px;
+                    font-weight: 100;
+                    backdrop-filter: blur(3px);
+                    line-height: 20vh;
+                    height: 30vh;
+                }
+                #banner-about nav{
+                    backdrop-filter: blur(3px);
+                }
+                
